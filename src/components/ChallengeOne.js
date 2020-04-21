@@ -91,6 +91,14 @@ const ChallengeOne = () => {
             />
             <button>GET INITIALS</button>
           </form>
+          <div className='code-container'>
+            <a
+              href='https://github.com/steveanthony999/codewars/blob/master/src/components/ChallengeOne.js'
+              target='blank'
+            >
+              CODE
+            </a>
+          </div>
           <div className='results'>
             <h1>{initials ? initials : 'Results'}</h1>
           </div>
